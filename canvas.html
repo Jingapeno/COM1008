@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JavaScript</title>
+  <link rel="stylesheet" href="./css/css.css">
+</head>
+
+<body id="javascript_canvas">
+    <header>
+        <h1 align="center">Jingapeno</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" id="logohome"><img src="./image/micrologo.png" alt"Micrologo" width="28"/></li>
+            <li><a href="index.html" id="home">Home</a></li>
+            <li><a href="degree.html" id="degree">Degree</a></li>
+            <li><a href="canvas.html" id="javascripe_canvas">Canvas</a></li>
+            <li><a href="contact.html" id="contact">Contact</a></li>
+            <li><a href="accessibility.html" id="accessibility">Accessibility</a></li>
+        </ul>
+    </nav>
+</body>
+
+<main>
+    <h1>Canvas</h1>
+    <canvas id="canvas" width="600" height="600" style="box-shadow: 0px 0px 20px black; right: 100px;" >
+        This browser does not support canvas.
+    </canvas>
+    
+    <p>
+        <button onclick="drawFigure()" id="drawFigure">draw</button>
+        <button onclick="drawPattern('repeat')" id="drawPattern">pattern</button>
+        <button onclick="doSomething('evt')" id="shape">shape</button>
+        <button onclick="clearCanvas()" id="clearCanvas">clear</button>
+    </p>
+    <p id="tips">
+        Tips: <br/>
+        Press 'draw' button will draw the figures.<br/>
+        Press 'pattern' button will fill the patterns.<br/>
+        Press 'shape' button to click on the canvas to draw shapes.<br/>
+        Press 'clear' button to clear everything on the canvas.<br/>
+    </p>
+    <script src="./js/js.js"></script>
+</main>
+
+<footer> 
+  <p> © Bing 2022 </p>
+  <figure>
+    <img src="./image/logo.png" alt"Logo" width="200">
+  </figure>
+</footer>
+
+</body>
+
+</html>
